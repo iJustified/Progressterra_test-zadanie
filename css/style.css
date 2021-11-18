@@ -598,6 +598,7 @@ body {
   background-color: #613DA2;
   border-radius: 16px;
   margin: 0 0 60px 0;
+  cursor: pointer;
 }
 .instruction__btn:hover {
   background-color: #4D2E84;
