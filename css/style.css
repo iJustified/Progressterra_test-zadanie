@@ -1125,3 +1125,109 @@ body {
     padding: 0;
   }
 }
+.technology {
+  background: #ffffff;
+}
+.technology__container {
+  padding: 80px 0 50px 0;
+  overflow: hidden;
+}
+.technology__title {
+  font-weight: 800;
+  font-size: 35px;
+  line-height: 122%;
+  color: #613DA2;
+  text-align: center;
+  padding: 0 0 70px 0;
+}
+.technology__title--hidden {
+  display: none;
+}
+.technology__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.technology__photo {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 33.333%;
+          flex: 1 1 33.333%;
+  margin: 0 -4px 30px -4px;
+  min-height: 137px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.technology__text {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 120%;
+  color: #0E1645;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .technology__container {
+    padding: 80px 39px 80px 39px;
+  }
+  .technology__title {
+    font-size: 40px;
+    padding: 0 100px 70px 100px;
+  }
+  .technology__title--hidden {
+    display: initial;
+  }
+  .technology__content {
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+  .technology__photo {
+    -webkit-box-flex: initial;
+        -ms-flex: initial;
+            flex: initial;
+    margin: 0;
+    min-height: 136px;
+  }
+  .technology__text {
+    font-size: 16px;
+    line-height: 125%;
+  }
+}
+@media (min-width: 992px) {
+  .technology__title {
+    padding: 0 0 70px 0;
+  }
+}
+@media (min-width: 1440px) {
+  .technology__container {
+    padding: 80px 89px 69px 89px;
+  }
+  .technology__title {
+    padding: 0 0 86px 0;
+  }
+  .technology__photo {
+    min-height: 219px;
+  }
+  .technology__text {
+    font-size: 26px;
+    line-height: 123%;
+  }
+}
