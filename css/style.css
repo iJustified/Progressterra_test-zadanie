@@ -1231,3 +1231,137 @@ body {
     line-height: 123%;
   }
 }
+.practice {
+  background-color: #0E1645;
+}
+.practice__container {
+  padding: 81px 0 160px 0;
+}
+.practice__title {
+  font-weight: 800;
+  font-size: 35px;
+  line-height: 122%;
+  color: #ffffff;
+  text-align: center;
+  padding: 0 0 70px 0;
+}
+.practice__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.practice__card {
+  margin: 0 0 45px 0;
+  padding: 0 30px;
+  background-color: #ffffff;
+  border-radius: 36px;
+}
+.practice__card:last-child {
+  margin: 0;
+}
+.practice__card-title {
+  font-weight: bold;
+  font-size: 23px;
+  line-height: 122%;
+  color: #0E1645;
+  text-align: center;
+  padding: 40px 0 20px 0;
+}
+.practice__card-title br {
+  display: none;
+}
+.practice__card-text {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 122%;
+  color: #0E1645;
+  padding: 0 0 50px 0;
+}
+
+@media (min-width: 500px) {
+  .practice__container {
+    padding: 81px 20px 160px 20px;
+  }
+}
+@media (min-width: 768px) {
+  .practice__container {
+    padding: 80px 99px 160px 112px;
+  }
+  .practice__title {
+    font-weight: 800;
+    font-size: 40px;
+  }
+  .practice__card {
+    margin: 0 0 40px 0;
+    padding: 0 40px 0 60px;
+  }
+  .practice__card:last-child {
+    margin: 0;
+  }
+  .practice__card-title {
+    font-size: 32px;
+    padding: 57px 0 30px 0;
+  }
+  .practice__card-title br {
+    display: initial;
+  }
+  .practice__card-text {
+    font-size: 20px;
+    line-height: 120%;
+    padding: 0 0 56px 0;
+  }
+}
+@media (min-width: 895px) {
+  .practice__card-title br {
+    display: none;
+  }
+}
+@media (min-width: 1440px) {
+  .practice__container {
+    padding: 82px 140px 160px 140px;
+  }
+  .practice__content {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .practice__card {
+    margin: 0 52px 0 0;
+    padding: 0 40px 0 60px;
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 50%;
+            flex: 1 1 50%;
+    min-height: 379px;
+  }
+  .practice__card:last-child {
+    margin: 0;
+  }
+  .practice__card-title br {
+    display: initial;
+  }
+}
+@media (min-width: 1700px) {
+  .practice__card {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+  .practice__card-title br {
+    display: none;
+  }
+}

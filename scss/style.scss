@@ -1102,3 +1102,130 @@ body {
       }
    }
 }
+
+// ! 9th block
+
+.practice {
+   background-color: $bg_clr;
+   &__container {
+      padding: 81px 0 160px 0;
+   }
+   &__title {
+      font-weight: 800;
+      font-size: 35px;
+      line-height: 122%;
+      color: #ffffff;
+      text-align: center;
+      padding: 0 0 70px 0;
+   }
+   &__content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+   }
+   &__card {
+      margin: 0 0 45px 0;
+      padding: 0 30px;
+      background-color: #ffffff;
+      border-radius: 36px;
+      &:last-child {
+         margin: 0;
+      }
+      &-title {
+         font-weight: bold;
+         font-size: 23px;
+         line-height: 122%;
+         color: $main_clr;
+         text-align: center;
+         padding: 40px 0 20px 0;
+         & br {
+            display: none;
+         }
+      }
+      &-text {
+         font-weight: 300;
+         font-size: 18px;
+         line-height: 122%;
+         color: $main_clr;
+         padding: 0 0 50px 0;
+      }
+   }
+}
+@media (min-width: 500px) {
+   .practice__container {
+      padding: 81px 20px 160px 20px;
+   }
+}
+@media (min-width: 768px) {
+   .practice {
+      &__container {
+         padding: 80px 99px 160px 112px;
+      }
+      &__title {
+         font-weight: 800;
+         font-size: 40px;
+      }
+      &__card {
+         margin: 0 0 40px 0;
+         padding: 0 40px 0 60px;
+         &:last-child {
+            margin: 0;
+         }
+         &-title {
+            font-size: 32px;
+            padding: 57px 0 30px 0;
+            & br {
+               display: initial;
+            }
+         }
+         &-text {
+            font-size: 20px;
+            line-height: 120%;
+            padding: 0 0 56px 0;
+         }
+      }
+   }
+}
+@media (min-width: 895px) {
+   .practice__card-title br {
+      display: none;
+   }
+}
+@media (min-width: 1440px) {
+   .practice {
+      &__container {
+         padding: 82px 140px 160px 140px;
+      }
+      &__content {
+         flex-direction: row;
+      }
+      &__card {
+         margin: 0 52px 0 0;
+         padding: 0 40px 0 60px;
+         flex: 1 1 50%;
+         min-height: 379px;
+         &:last-child {
+            margin: 0;
+         }
+         &-title {
+            br {
+               display: initial;
+            }
+         }
+      }
+   }
+}
+@media (min-width: 1700px) {
+   .practice {
+      &__card {
+         display: flex;
+         flex-direction: column;
+         justify-content: space-evenly;
+         &-title {
+            & br {
+               display: none;
+            }
+         }
+      }
+   }
+}
