@@ -31,7 +31,7 @@ body {
    background-color: $bg_clr;
 }
 
-// ! header
+// header
 
 .header {
    &__content {
@@ -65,10 +65,6 @@ body {
    &__link {
       display: inline-block;
       margin: 10px 0 0 0;
-      &-img {
-         width: 85px;
-         height: 85px;
-      }
    }
 }
 @media (min-width: 768px) {
@@ -129,7 +125,7 @@ body {
    }
 }
 
-// ! 1st block
+// 1st block
 
 .bonus {
    background-image: url(../img/content/bonus_bg_414.png);
@@ -271,7 +267,7 @@ body {
    }
 }
 
-// ! 2nd block
+// 2nd block
 
 .service {
    background-color: #ffffff;
@@ -352,7 +348,7 @@ body {
    }
 }
 
-// ! 3rd block
+// 3rd block
 
 .advantage {
    background-color: #ffffff;
@@ -485,7 +481,7 @@ body {
    }
 }
 
-// ! 4th block
+// 4th block
 
 .instruction {
    &__container {
@@ -608,10 +604,10 @@ body {
    }
 }
 
-// ! 5th block
+// 5th block
 
 .clients {
-   background: #ffffff;
+   background-color: #ffffff;
    &__container {
       padding: 0 0 70px 0;
    }
@@ -705,7 +701,7 @@ body {
    }
 }
 
-// ! 6th block
+// 6th block
 
 .statistics {
    background-color: $bg_clr;
@@ -853,10 +849,10 @@ body {
    }
 }
 
-// ! 7th block
+// 7th block
 
 .case {
-   background: $bg_clr;
+   background-color: $bg_clr;
    &__container {
       padding: 160px 0 80px 16px;
    }
@@ -987,12 +983,6 @@ body {
       }
       &__item {
          margin: 0 25px 30px 25px;
-         &-1 {
-         }
-         &-2 {
-         }
-         &-3 {
-         }
          &-4 {
             margin: 0 25px;
          }
@@ -1011,10 +1001,10 @@ body {
    }
 }
 
-// ! 8th block
+// 8th block
 
 .technology {
-   background: #ffffff;
+   background-color: #ffffff;
    &__container {
       padding: 80px 0 50px 0;
       overflow: hidden;
@@ -1104,7 +1094,7 @@ body {
    }
 }
 
-// ! 9th block
+// 9th block
 
 .practice {
    &__container {
@@ -1230,7 +1220,7 @@ body {
    }
 }
 
-// ! 10th block
+// 10th block
 
 .company {
    &__container {
@@ -1253,8 +1243,6 @@ body {
          align-items: center;
          justify-content: center;
          padding: 0 0 35px 0;
-      }
-      &-info {
       }
       &-text {
          font-size: 18px;
@@ -1316,7 +1304,7 @@ body {
    }
 }
 
-// ! 11th block
+// 11th block
 
 .platform {
    background-image: url(../img/content/footer_bg.png);
@@ -1484,9 +1472,7 @@ body {
       align-items: center;
       padding: 0 50px 36px 50px;
       &__menu {
-
          position: relative;
-
          &-list {
          display: flex;
          justify-content: space-between;
@@ -1503,6 +1489,10 @@ body {
             font-size: 18px;
             line-height: 122%;
             z-index: 0;
+            border-bottom: 1px solid transparent;
+            &:hover {
+               border-bottom: 1px solid #FFF7D1;
+            }
          }
       }
    }

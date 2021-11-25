@@ -62,10 +62,6 @@ body {
   display: inline-block;
   margin: 10px 0 0 0;
 }
-.logo__link-img {
-  width: 85px;
-  height: 85px;
-}
 
 @media (min-width: 768px) {
   .logo__link-img {
@@ -685,7 +681,7 @@ body {
   }
 }
 .clients {
-  background: #ffffff;
+  background-color: #ffffff;
 }
 .clients__container {
   padding: 0 0 70px 0;
@@ -974,7 +970,7 @@ body {
   }
 }
 .case {
-  background: #0E1645;
+  background-color: #0E1645;
 }
 .case__container {
   padding: 160px 0 80px 16px;
@@ -1127,7 +1123,7 @@ body {
   }
 }
 .technology {
-  background: #ffffff;
+  background-color: #ffffff;
 }
 .technology__container {
   padding: 80px 0 50px 0;
@@ -1658,5 +1654,9 @@ body {
     font-size: 18px;
     line-height: 122%;
     z-index: 0;
+    border-bottom: 1px solid transparent;
+  }
+  .footer__menu-item:hover {
+    border-bottom: 1px solid #FFF7D1;
   }
 }
